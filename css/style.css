@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color:black;
+    color: #ffff;
+}
+/* common styles */
+.heading_paragraph{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    
+}
+.btn_primary{
+    padding: 10px 30px;
+    background-color: #E6533C;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+}
+.btn_secondary{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-weight: 500;
+}
+/* common end */
+/* header starts */
+header{
+    padding: 0px 100px;
+}
+/* nav starts */
+.nav_logo{
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2rem;
+    color: #E6533C;
+}
+.navbar, .nav_item{
+    padding: 1.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_gap{
+    margin-right: 2rem;
+}
+
+.nav_item>p a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    
+}
+.nav_item {
+    border: 1px solid #323232;
+    padding: 0.62rem;
+    border-radius: 2.5rem;
+}
+.nav_bg_color{
+    background-color: #E6533C;
+    padding: 0.62rem 1.2rem;
+    border-radius: 25px;
+    
+}
+/* nav end */
+/* banner starts */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_content{
+    max-width: 45%;
+    margin-top: 3rem;
+}
+.banner_heading{
+    font-size: 3.125rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.banner_heading>span{
+    font-family: "Playwrite AT", cursive;
+    font-weight: 100;
+   
+}
+
+.banner_btn{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 100px;
+}
+
+.banner_content_img{
+    position: relative;
+    max-width: 60%;
+}
+.banner_img{
+    max-width: 100%;
+    height: 580px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.banner_img img{
+    width: 100%;
+    height: 100%;
+}
+.five00{
+    padding: 10px;
+    background-color: #323232;
+    opacity: 0.9;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+    max-width: 160px;
+
+}
+.five00 > span{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.three50{
+    
+    padding: 10px;
+    background-color: #323232;
+    opacity: 0.9;
+    border-radius: 5px;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    max-width: 150px;
+}
+.three50 .parts{
+    display: flex;
+    gap: 10px;
+}
+ .part1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    margin: auto;
+}
