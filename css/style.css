@@ -14,7 +14,7 @@ body{
     font-size: 0.8rem;
     line-height: 1.5rem;
     letter-spacing: 0.5px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
     
 }
 .btn_primary{
@@ -32,6 +32,15 @@ body{
     border: 1px solid white;
     border-radius: 30px;
     font-weight: 500;
+}
+.all_container_heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.all_container_heading>h3{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
 }
 /* common end */
 /* header starts */
@@ -151,4 +160,24 @@ header{
     border-radius: 50%;
     background-color: #E6533C;
     margin: auto;
+}
+/* habits styles starts */
+.habit_container{
+    padding: 100px 100px;
+}
+.habit_items_box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.habit_item{
+    text-align: center;
+}
+.habit_item>h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.habit_img>img{
+    border-radius: 50%;
+    border: 5px solid #635b5b22;
 }
