@@ -306,6 +306,62 @@ h4{
 }
 /* team section end */
 
+/* pricing plan start */
+.pricing_plan{
+    padding: 100px;
+    background-color: #323232;
+}
+.pricing_container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.pricing_card1, .pricing_card2, .pricing_card3 {
+    padding: 2rem;
+   margin-top: 5rem;
+    border-radius: 18px;
+    background-image: url('../images/price1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pricing_card2{
+    background-image: url('../images/price2.jpg');
+}
+.pricing_card3{
+    background-image: url('../images/price3.jpg');
+}
+.price{
+    text-align: center;
+}
+.pricing_border{
+    height: 1px;
+    background-color: #464545;
+    margin: 1rem 0rem;
+    
+
+}
+.pricing_round{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#db2003, #e46451,white);
+    box-shadow: 2px 2px 5px rgb(37, 37, 37);
+}
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* pricing plan end */
+
 /* footer start */
 .footer{
     margin-top: 100px;
