@@ -483,9 +483,9 @@ align-items: center;
        height: 50px;
        font-size: 16px;
     }
-    /* .bmi_calculator_section{
+    .bmi_calculator_section >.all_container_heading{
         padding: 20px;
-    } */
+    }
     .bmi_calculator_div{
         padding: 20px;
     }
