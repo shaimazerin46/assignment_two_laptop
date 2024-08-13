@@ -305,3 +305,29 @@ h4{
     color: rgba(255, 255, 255, 0.5);
 }
 /* team section end */
+
+/* footer start */
+.footer{
+    margin-top: 100px;
+    background-color: #323232;
+    padding: 50px 100px;
+}
+.footer_main_part{
+    display: flex;
+    justify-content: space-between;
+}
+.foot_get_started p{
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+.footer_border_line{
+    margin-top: 3rem;
+    height: 1.5px;
+    background-color: #464545;
+}
+.footer>p{
+    text-align: center;
+    margin-top: 2.5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
