@@ -24,6 +24,7 @@ body{
     border: none;
     border-radius: 30px;
     font-weight: 500;
+    cursor: pointer;
 }
 .btn_secondary{
     padding: 10px 30px;
@@ -32,6 +33,7 @@ body{
     border: 1px solid white;
     border-radius: 30px;
     font-weight: 500;
+    cursor: pointer;
 }
 .all_container_heading{
     margin: 0 auto;
@@ -193,7 +195,7 @@ header{
     background-color: #222222;
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 18px;
     padding: 80px;
 }
 .run_img{
@@ -265,3 +267,41 @@ h4{
     margin-bottom: 1.5rem;
 }
 /* BMI calculator section end */
+
+/* team section start */
+
+.team_contents{
+    margin: 100px;
+    background-color: #323232;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+}
+.team_image_card{
+    max-width: 398px;
+    height: 300px;
+    position: relative;
+}
+.team_image_card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    filter: brightness(70%);
+    object-fit: cover;
+}
+.team_image_card .p1{
+    position: absolute;
+    left: 1.7rem;
+    bottom: 2.5rem;
+    font-weight: bolder;
+}
+.team_image_card .p2{
+    position: absolute;
+    left: 1.7rem;
+    bottom: 1.2rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* team section end */
