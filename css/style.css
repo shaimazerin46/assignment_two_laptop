@@ -15,6 +15,7 @@ body{
     line-height: 1.5rem;
     letter-spacing: 0.5px;
     color: rgba(255, 255, 255, 0.5);
+    max-width: 566px;
     
 }
 .btn_primary{
@@ -86,6 +87,9 @@ header{
     border-radius: 25px;
     
 }
+.ham_icon{
+    display: none;
+}
 /* nav end */
 /* banner starts */
 .banner{
@@ -123,6 +127,7 @@ header{
     height: 580px;
     margin-left: 150px;
     margin-right: 50px;
+    object-fit: cover;
 }
 .banner_img img{
     width: 100%;
@@ -280,7 +285,7 @@ h4{
     gap: 1rem;
 }
 .team_image_card{
-    max-width: 398px;
+    width: 360px;
     height: 300px;
     position: relative;
 }
@@ -386,4 +391,144 @@ align-items: center;
     text-align: center;
     margin-top: 2.5rem;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* responsive design for mobile */
+@media screen and (max-width: 567px){
+    .heading_paragraph{
+        font-size: 16px;
+       
+    }
+    .all_container_heading {
+       margin-bottom: 50px;
+        max-width: 100%;
+    }
+    .all_container_heading>h3 {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+    .navbar {
+        padding: 2rem 0rem;
+    }
+    .nav_item{
+        display: none;
+    }
+    .ham_icon{
+        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        padding: 0px 20px;
+    }
+   
+    .banner, .habit_items_box,.run_container,.bmi_calculator_div, .pricing_container, .footer_main_part {
+        
+        flex-direction: column;
+        
+    }
+    .banner_content {
+        max-width: 100%;
+
+    }
+    .banner_heading {
+        font-size: 2rem;
+    }
+    .banner_content_img {
+       
+        max-width: 100%;
+    }
+    .banner_img {
+      
+        margin: 0px 20px;
+        
+    }
+    .banner_btn{
+        justify-content: space-between;
+    }
+    .banner_btn > button{
+        width: 50%;
+        height: 50px;
+        font-size: 16px;
+    }
+    .habit_container {
+        padding: 20px;
+    }
+    .habit_item{
+        margin-bottom: 50px;
+    }
+   
+    .run_section{
+        padding: 20px;
+    }
+    .run_container {
+        padding: 20px;
+    }
+    .run_img{
+        margin: 0 auto;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    .run_btn{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px;
+    }
+    .run_btn>button{
+       width: 100%;
+       height: 50px;
+       font-size: 16px;
+    }
+    /* .bmi_calculator_section{
+        padding: 20px;
+    } */
+    .bmi_calculator_div{
+        padding: 20px;
+    }
+    h4{
+        margin-top: 20px;
+    }
+    .team_contents{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+    .team_image_card{
+        margin: 0 auto;
+    }
+    .team_image_card{
+        width: 100%;
+        
+        
+    }
+    .team_contents{
+        gap: 30px;
+    }
+    .pricing_plan{
+        padding: 20px;
+    }
+    .pricing_card1, .pricing_card2, .pricing_card3{
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .margin-btm{
+        margin-bottom: 20px;
+    }
+    .btn_width{
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .img_display_none{
+        display: none;
+    }
+    .margin-top-btn{
+        margin-top: 30px;
+    }
 }
